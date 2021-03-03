@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}  */
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -49,9 +38,16 @@
   height: 4vmin;
   width: 14vmin;
   margin: 0px 2.5px 0px 2.5px;
-  font-size: 50%
+  font-size: 50%;
+  /* border-radius: 10px; */
 }
 
 .Mode-btn-style {
   background-color: darkcyan;
+}
+
+.disable-sci-button {
+  color: transparent;
+  background-color: transparent;
+
 }
